@@ -1,0 +1,26 @@
+{
+  "name": "coinflip",
+  "version": "0.0.1",
+  "description": "This is a simple package that emulates coin flips in several different ways.",
+  "main": "flip.js",
+  "scripts": {
+    "test": "echo \\\"Error: No test specified\\\" && exit 1",
+    "flip": "node flip.js",
+    "flips": "node flips.js",
+    "guess-flip": "node guess-flip.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comp426-2022-spring/a02-NickA02.git"
+  },
+  "author": "Nicholas Almy",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/comp426-2022-spring/a02-NickA02/issues"
+  },
+  "homepage": "https://github.com/comp426-2022-spring/a02-NickA02#readme",
+  "type": "module",
+  "dependencies": {
+    "minimist": "^1.2.5"
+  }
+}
