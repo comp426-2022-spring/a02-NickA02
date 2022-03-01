@@ -10,5 +10,7 @@ for (var i = 0; i < number; i++) {
     flips.push(coinFlip())
 }
 
-console.log(flips)
+console.log(flips + '\n')
+var flip_tally = countFlips(flips)
+
 console.log(countFlips(flips))
