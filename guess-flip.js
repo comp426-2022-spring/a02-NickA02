@@ -5,6 +5,6 @@ const argv = minimist(process.argv.slice(2))
 
 if (argv.call == null) console.error("Error: no input.\nUsage: node guess-flip --call=[heads|tails]")
 
-if (argv.call == "heads" || argv.call == "tails") {
+else if (argv.call == "heads" || argv.call == "tails") {
     console.log(flipACoin(argv.call))
 }else console.error("Error: invalid input.\nUsage: node guess-flip --call=[heads|tails]")
