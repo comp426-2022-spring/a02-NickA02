@@ -10,7 +10,6 @@ for (var i = 0; i < number; i++) {
     flips.push(coinFlip())
 }
 
-console.log(flips + '\n')
-var flip_tally = countFlips(flips)
-
-console.log(countFlips(flips))
+console.log(flips)
+if (flips.length == 1) console.log(`{ ${flips.pop()}: 1 }`)
+else console.log(countFlips(flips))
